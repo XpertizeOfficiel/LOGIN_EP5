@@ -1,0 +1,38 @@
+<ion-content>
+  <ion-icon name="close-circle-outline" style="font-size: 18px;padding-top: 1em;margin-left: 1em;"
+  (click)="closeModal()"></ion-icon>
+  <div class="ion-padding">
+    <h3 style="font-weight: bold;display:flex;justify-content:space-around;">S'INSCRIRE</h3>
+
+    <form class="ion-padding">
+      <div class="wrap-input">
+        <input class="input" type="text" name="nom" placeholder="Nom">
+      </div>
+
+      <div class="wrap-input">
+        <input class="input" type="text" name="prenom" placeholder="Prénoms">
+      </div>
+
+      <div class="wrap-input">
+        <input class="input" type="text" name="tel" placeholder="Téléphone">
+      </div>
+
+      <div class="wrap-input">
+        <input class="input" type="text" name="email" placeholder="Adresse email">
+      </div>
+
+      <div class="wrap-input">
+        <input class="input" type="password" name="password" placeholder="Mot de passe">
+      </div>
+      <ion-card-subtitle style="margin-bottom: 1.5em;">
+        En cliquant sur s'inscrire vous acceptez nos termes et conditions ainsi que notre
+        politique de confidentialité
+      </ion-card-subtitle>
+    <div class="container-form-btn">
+      <button class="form-btn custom-font">
+        INSCRIPTION
+      </button>
+    </div>
+    </form>
+  </div>
+</ion-content>

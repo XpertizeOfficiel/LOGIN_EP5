@@ -1,0 +1,40 @@
+*{
+  font-family:Segoe UI, sans-serif;
+}
+ion-content {
+  --overflow:hidden;
+  overflow: auto;
+  --background: none;
+  background: url(../../assets/img/back_auth.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  padding-top: 12em;
+  margin-left: 10em;
+}
+
+.Btn_position{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.btn_left{
+  --background: white;
+  color: chocolate;
+  min-width: 150px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn_right{
+  color:white;
+  --border-color:white;
+  min-width: 150px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
